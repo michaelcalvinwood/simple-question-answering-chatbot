@@ -11,7 +11,6 @@ sequence = [
         HumanMessage(content="Please answer in 30 words. How can I learn driving a car?")
     ]
 
-
 response = chat(sequence)
 
 print (response.content)
