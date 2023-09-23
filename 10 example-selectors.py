@@ -79,7 +79,6 @@ print(llm(few_shot_prompt_template.format(userInput=query)))
 
 from langchain.prompts.example_selector import LengthBasedExampleSelector
 
-
 examples = [
     {
         "query": "What is a mobile?",
